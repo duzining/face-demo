@@ -24,7 +24,7 @@ public class VerifyFaceService {
 
         try{
 
-            Credential cred = new Credential("AKID2uKXUBG3GCrFNDLskMltkvqUta1Ajc2D", "UifNp1g4HSQ66rJXUCn8CQO1NSI4aoCL");
+            Credential cred = new Credential();
 
             HttpProfile httpProfile = new HttpProfile();
             httpProfile.setEndpoint("iai.tencentcloudapi.com");
